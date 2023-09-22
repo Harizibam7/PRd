@@ -1,12 +1,12 @@
 import axios from 'axios';
-const API_URL ='http://localhost:8000/api/users';
-const API_URL_free = 'http://localhost:8000/api/freelancer';
-const API_URL_company = 'http://localhost:8000/api/company';
-const API_URL_CreatePost = 'http://localhost:8000/api/createpost';
-const API_URL_ProfileUpdate = 'http://localhost:8000/api/userprofiledetails';
-const API_URL_FreePost = 'http://localhost:8000/api/freepost';
-const API_URL_Apply = 'http://localhost:8000/api/applyjob';
-const API_URL_Apply_List = 'http://localhost:8000/api/listapplyjob';
+const API_URL ='http://13.53.38.176:3000/api/users';
+const API_URL_free = 'http://13.53.38.176:3000/api/freelancer';
+const API_URL_company = 'http://13.53.38.176:3000/api/company';
+const API_URL_CreatePost = 'http://13.53.38.176:3000/api/createpost';
+const API_URL_ProfileUpdate = 'http://13.53.38.176:3000/api/userprofiledetails';
+const API_URL_FreePost = 'http://13.53.38.176:3000/api/freepost';
+const API_URL_Apply = 'http://13.53.38.176:3000/api/applyjob';
+const API_URL_Apply_List = 'http://13.53.38.176:3000/api/listapplyjob';
 
 const register =async (userData)=>{
     const response =await axios.post(API_URL,userData);
