@@ -1,0 +1,64 @@
+.course-details{
+    height: 100%;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+.course-details-name{
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    color: gray;
+}
+.course-details-content{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    overflow: scroll;
+}
+.course-details-content::-webkit-scrollbar{
+    display: none;
+}
+.course-details-resoures{
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    border-radius: 8px;
+    display: flex;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.course-details-resoures-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: auto;
+    height: 100%;
+}
+.course-details-resoures-btn button{
+    width: 75px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0057FF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.course-details-resoures-btn button:hover{
+    background-color: #000000;
+}
