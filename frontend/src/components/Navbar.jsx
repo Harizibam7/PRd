@@ -44,7 +44,7 @@ function Navbar({studentMain,setStudentMain,setProfileData,profileData}) {
                       
                       handleNavClick('message')
                     }}>Messages</li>
-                    <li>Tests</li>
+
                 </ul>
         </li>
         <li className='location'>

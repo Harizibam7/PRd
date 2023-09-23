@@ -61,7 +61,7 @@ function LeaderResume({profileData}) {
                   </a>
                   <a href={profileData.discordlink}>
                   <button className='leader-icon3'>
-                     <BsFillChatRightTextFill/> Chat
+                     <BsFillChatRightTextFill/> Discord
                     </button>
                   </a>
                 </div>

@@ -245,9 +245,8 @@ body::-webkit-scrollbar{
     flex-direction: column;
 }
 
-.find-side ul{
-    list-style: none;
-
+.find-side img{
+    cursor: pointer;
 }
 
 .find-banner{

@@ -38,10 +38,7 @@ function FindRec({ studentMain, setStudentMain ,setDemoTry}) {
         {jobList.map((job) => (
           <div className='box' key={job._id}>
              <div className='innder-box'>
-              <div className='box-nav'>
-                <h2 className='dmy'>20 May, 2023</h2>
-                <BsBookmarkFill className='save-logo' />
-              </div>
+
               <div className='box-main'>
                 <div className='box-details'>
                   <span className='company-name'>{job.companyName}</span>

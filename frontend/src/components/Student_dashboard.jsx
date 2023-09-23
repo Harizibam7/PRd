@@ -12,6 +12,7 @@ export default function Student_dashboard({authToken,userDBData,profileData,setP
   console.log("From Student Dashboard: ",userDBData)
   const [studentMain, setStudentMain] = useState('findjob');
   const [userData, setUserData] = useState(null);
+  const [stn,setStn] =useState('courses');
  
   const [demotry,setDemoTry] = useState('');
   useEffect(() => {
@@ -44,9 +45,9 @@ export default function Student_dashboard({authToken,userDBData,profileData,setP
         {authToken ? (
           <>
             {studentMain === 'findjob' ? (
-              <FindJob studentMain={studentMain} setStudentMain={setStudentMain} setDemoTry={setDemoTry} />
+              <FindJob studentMain={studentMain} setStudentMain={setStudentMain} setDemoTry={setDemoTry} stn={stn} setStn={setStn}  />
             ) : studentMain === 'message' ? (
-              <Message />
+              <Message stn={stn} setStn={setStn}  />
             ) : studentMain === 'leaderboard' ? (
               <LeaderBoard profileData={profileData} />
             ) : studentMain === 'profile' ? (

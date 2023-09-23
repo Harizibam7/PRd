@@ -25,6 +25,7 @@
   app.use('/api/createpost',require('./Routes/CreatePostRoutes'));
   app.use('/api/freepost',require('./Routes/FreePostRoutes'));
   app.use('/api/listapplyjob',require('./Routes/companyApplyRoutes'));
+  app.use('/api/companyquestion',require('./Routes/CompanyQuestionRoutes'))
 
 
 

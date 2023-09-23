@@ -1,6 +1,6 @@
 import {FaReact} from 'react-icons/fa'
 import './courses.css'
-const Courses = () => {
+const Courses = ({setStn}) => {
   return (
 
     <div className="desktop-1">
@@ -9,7 +9,7 @@ const Courses = () => {
                 <FaReact className='course-icon'/>
             </div>
             <div className='course-name'>React Course</div>
-            <button className='course-btn'>View</button>
+            <button className='course-btn' onClick={()=>{setStn('coursedetails')}}>View</button>
         </div>
         <div className="courses">
             <div className="course-image">

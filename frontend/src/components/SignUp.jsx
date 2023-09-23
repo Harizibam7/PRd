@@ -1,4 +1,4 @@
- import React, { useState , useEffect} from 'react'
+import React, { useState , useEffect} from 'react'
 import './Student_dashboard.css';
 import {useSelector,useDispatch} from 'react-redux'
 import SignUpImg from '../images/SignUp.png'

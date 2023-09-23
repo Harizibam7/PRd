@@ -21,7 +21,7 @@ function Message() {
         <div className='message-chat-chats'>
                 <MessageChating/>
         </div>
-      </div>):<CoursesDetails/>
+      </div>):<Courses/>
       }
     </div>
   )
